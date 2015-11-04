@@ -3,6 +3,13 @@
 ###### Distributed Systems - Fall 2015
 ###### November 4th, 2015
 
+
+### Execution
+
+./run.sh input.txt
+
+### Description
+
 This is a Java based stimulation of a multithreaded node based network that implements the Chang and Robert's algorithm for leader election. The network takes an input text file that describes the setup of the ring based network and also contains messages for leader election and node failure. Below I will describe the implementation of the various parts of my system.
 
 ### Input File Parsing
